@@ -1,0 +1,25 @@
+@media (min-width: 768px) and (max-width: 1080px) {
+#cs_menu .nav-item .nav-link {
+    font-size: 12px;
+    padding: 10px 15px;
+}
+}
+@media (min-width: 501px) and (max-width: 1080px) {
+.box1 .overlay {
+	padding-top:30px;
+}
+}
+@media (max-width: 767px) {
+#cs_menu .fb_login {
+	order: initial;
+}
+}
+@media (max-width: 500px) {
+#cs_menu .nav-item .nav-link {
+    font-size: 12px;
+    padding: 5px 20px;
+}
+#cs_banner .owl-nav {
+	display: none;
+}
+}

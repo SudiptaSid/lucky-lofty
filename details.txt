@@ -1,0 +1,11 @@
+{
+	background: linear-gradient(to bottom, #0376ab 0%,#0791c3 50%,#0a86ba 51%,#10a4cf 100%);
+
+background: linear-gradient(to bottom, #10a4cf 0%,#0a86ba 50%,#0791c3 51%,#0376ab 100%);
+
+
+background: linear-gradient(rgba(3, 118, 171, 0.85) 0%, rgba(7, 145, 195, 0.85) 50%, rgba(10, 134, 186, 0.85) 51%, rgba(16, 164, 207, 0.85) 100%);
+
+
+background: linear-gradient(rgba(16, 164, 207, 0.85) 0%, rgba(10, 134, 186, 0.85) 50%, rgba(7, 145, 195, 0.85) 51%, rgba(3, 118, 171, 0.85) 100%);
+}

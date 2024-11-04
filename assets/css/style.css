@@ -1,0 +1,273 @@
+/* --------------------------------------------------------------------------------
+            Banner
+-------------------------------------------------------------------------------- */
+#cs_banner {
+	position: relative;
+    border-bottom: 4px solid #023145;
+}
+#cs_banner .owl-nav {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+}
+#cs_banner .owl-theme .owl-nav .owl-next, 
+#cs_banner .owl-theme .owl-nav .owl-prev {
+    background-color: transparent;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 0px;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+#cs_banner .owl-theme .owl-nav .owl-next:hover, 
+#cs_banner .owl-theme .owl-nav .owl-prev:hover {
+    color:#014c78;
+}
+#cs_banner .owl-theme .owl-nav .owl-next {
+    right:30px;
+}
+#cs_banner .owl-theme .owl-nav .owl-prev {
+    left:30px;
+}
+/* --------------------------------------------------------------------------------
+            Home Page Section
+-------------------------------------------------------------------------------- */
+#cs_section1 {
+    padding-bottom:30px;
+}
+#cs_section2 {
+    padding-bottom:30px;
+}
+#cs_section3 {
+    padding-bottom:30px;
+}
+#cs_section3 .testimonial_box {
+    background: #e8eef2;
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+#cs_section3 .testimonial_box img {
+    height: 130px;
+    float: left;
+    border: 1px solid #c8c8c8;
+    margin-right: 10px;
+}
+#cs_section3 .testimonial_box h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+#cs_section3 .testimonial_box p {}
+/* --------------------------------------------------------------------------------
+            Offer Ex Page
+-------------------------------------------------------------------------------- */
+.cs_offer_ex1 {
+    padding-bottom:30px;
+}
+.cs_offer_ex1 h3 {
+    text-transform: uppercase;
+    font-size:18px;
+}
+/* --------------------------------------------------------------------------------
+            Leader Board Page
+-------------------------------------------------------------------------------- */
+#cs_leaderboard {
+    padding-bottom:30px;
+}
+#cs_leaderboard .promo_bg {
+    margin-bottom:20px;
+}
+#cs_leaderboard ul {}
+#cs_leaderboard ul li {
+    background-color: #e8e8e8;
+    padding: 10px;
+    margin-bottom:10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+#cs_leaderboard ul li:hover {
+    background-color: #006997;
+}
+#cs_leaderboard ul li .img_sec {
+    flex: 0 0 50px;
+    max-width: 50px;
+}
+#cs_leaderboard ul li .img_sec img {
+    border-radius: 50%;
+    overflow: hidden;
+    max-width:50px;
+}
+#cs_leaderboard ul li .details_sec {
+    flex: 0 0 calc(100% - 100px);
+    max-width: calc(100% - 100px);
+    color: #000;
+    padding-left: 15px;
+}
+#cs_leaderboard ul li:hover .details_sec {
+    color: #fff;
+}
+#cs_leaderboard ul li .details_sec .p1 {
+    margin: 0px;
+    font-size: 14px;
+}
+#cs_leaderboard ul li .details_sec .p1 span {
+    margin-left: 10px;
+    font-size: 10px;
+}
+#cs_leaderboard ul li .details_sec .p1 span.color_red {
+    color:red;
+}
+#cs_leaderboard ul li:hover .details_sec .p1 span.color_red {
+    color:#fff;
+}
+#cs_leaderboard ul li .details_sec .p1 span.color_green {
+    color: green;
+}
+#cs_leaderboard ul li:hover .details_sec .p1 span.color_green {
+    color:#fff;
+}
+#cs_leaderboard ul li .details_sec .p1 span i {
+    margin-right: 2px;
+}
+#cs_leaderboard ul li .details_sec .p2 {
+    font-size: 12px;
+    margin: 0px;
+}
+#cs_leaderboard ul li .hexa_sec {
+    flex: 0 0 50px;
+    max-width: 50px;
+    text-align: right;
+}
+#cs_leaderboard ul li .hexa_sec span {
+    width: 34px;
+    height: 37px;
+    background-image: url(../images/hexagon1_bg.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    font-weight: 700;
+}
+#cs_leaderboard ul li:hover .hexa_sec span {
+    background-image: url(../images/hexagon_bg.png);
+}
+.leaderboard_slider {
+    padding:0px 15px;
+}
+.leaderboard_slider .owl-dots {
+    display: table;
+    margin: auto;
+}
+.leaderboard_slider .owl-dots .owl-dot {
+    display: table-cell;
+    vertical-align: middle;
+}
+.leaderboard_slider .owl-dots .owl-dot span {
+    margin: 3px;
+    width: 5px;
+    height: 5px;
+    background-color: #999;
+    border-radius: 50%;
+}
+.leaderboard_slider .owl-dots .owl-dot.active span {
+    background-color: #006997;
+    width: 8px;
+    height: 8px;
+}
+/* --------------------------------------------------------------------------------
+            Contact Us Page
+-------------------------------------------------------------------------------- */
+.page_contact {
+
+}
+/* --------------------------------------------------------------------------------
+            FAQs Page
+-------------------------------------------------------------------------------- */
+.page_faqs .ques_faq {
+    margin-bottom:30px;
+}
+.page_faqs .ques_faq:last-child {
+    margin-bottom:0px;
+}
+.page_faqs .ques_faq h4 {
+    font-size:13px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.page_faqs .ques_faq p {
+    margin-bottom:0px;
+}
+/* --------------------------------------------------------------------------------
+            Privacy Policy Page
+-------------------------------------------------------------------------------- */
+.page_privacy {}
+.page_privacy .privacy_a {}
+.page_privacy .privacy_a h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.page_privacy .privacy_a h5 {
+        font-weight: bold;
+        font-size:14px;
+        margin-bottom:10px;
+}
+/* --------------------------------------------------------------------------------
+            T & C Page
+-------------------------------------------------------------------------------- */
+.page_tearms {}
+.page_tearms .terms_a {}
+.page_tearms .terms_a ol {
+    margin-left: 30px;
+}
+.page_tearms .terms_a ol li {
+    list-style-type: decimal;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+/* --------------------------------------------------------------------------------
+            Withdrawls & Promocode Page
+-------------------------------------------------------------------------------- */
+.page_withdr_promo .form-inline .form-control {
+    width:100%;
+    display: block;
+}
+/* --------------------------------------------------------------------------------
+            Game Play Page
+-------------------------------------------------------------------------------- */
+.page_game_play {
+
+}
+.page_game_play .top_bar_gp {
+    display: table;
+    width:100%;
+    margin-bottom:15px;
+}
+.page_game_play .top_bar_gp .tc_gp {
+    display: table-cell;
+    vertical-align:middle;
+}
+.page_game_play .top_bar_gp .tc_gp .g_name {
+    
+}
+.page_game_play .top_bar_gp .tc_gp .g_name .date-input {
+    display: inline-block;
+}
+.page_game_play .top_bar_gp .tc_gp .g_name input {
+    padding: 5px 15px;
+    margin-left:5px;
+    text-align: center;
+}
+/* --------------------------------------------------------------------------------
+            My Account & Details
+-------------------------------------------------------------------------------- */
